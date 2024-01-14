@@ -1,0 +1,239 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMK</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+
+    <style>
+        .o {
+            float: left;
+        }
+        @font-face {
+            font-family: poppins;
+            src: url(src/font/PoppinsRegular-B2Bw.otf);
+        }
+        @font-face {
+            font-family: poppins-b;
+            src: url(src/font/PoppinsBold-GdJA.otf);
+        }
+        @font-face {
+            font-family: poppins-sb;
+            src: url(src/font/PoppinsSemibold-8l8n.otf);
+        }
+
+        .font-poppins {
+            font-family: poppins;
+        }
+        .font-poppins-b {
+            font-family: poppins-b;
+        }
+        .font-poppins-sb {
+            font-family: poppins-sb;
+        }
+        .p-pop {
+            font-weight: 500;
+            opacity: 80%;
+        }
+        .btn-1 {
+            border: none;
+            padding-block: 1%;
+            border-radius: 15px;
+            font-family: poppins-sb;
+            font-weight: 700;
+            padding-inline: 5%;
+            background-color: #344af1;
+            color: white;
+        }
+        .btn-1:hover {
+            transform: scale(1.03);
+            transition-duration: 200ms;
+        }
+        .img-profil {
+            width: 200px;
+            animation: img-p ease-in-out 5s infinite;
+        }
+        @keyframes img-p {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        .span1 {
+            color: #344af1;
+        }
+        .in-1 {
+            padding-block: 2%;
+            padding-left: 10px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            background-color: white;
+            color: black;
+        }
+        .in-1:focus {
+            transform: scale(1.03);
+            transition-duration: 200ms;
+            box-shadow: 5px 5px 10px rgba( 0,0,0, 0.15);
+        }
+        .btn-in {
+            border: none;
+            padding-block: 2%;
+            font-family: poppins-b;
+            color: white;
+            background-color: #344af1;
+            border-radius: 5px;
+        }
+        .btn-in:hover {
+            transform: scale(1.03);
+            transition-duration: 200ms;
+        }
+        .content {
+            background-color: #eceefa;
+        }
+        .footer-1 {
+            display:flex;
+            height: px;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px;
+        }
+        .sos {
+            margin-bottom: -10px;
+            font-family: poppins;
+            font-weight: 400;
+        }
+        .footer {
+            background-color: #ffffff;
+        }
+        .t-hover:hover {
+            scale: 1.02;
+            transition-duration: 0.7s;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary shadow-sm sticky-top" >
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">
+                <span class="fw-bold">Vr</span><span class="fw-bold" style="color: #344af1;">Shop</span>
+            </a>
+            <ul class="o navbar-nav hstack gap-3">
+                <a href="" class="nav-link">Home</a>
+                <a href="" class="nav-link">About</a>
+                <a href="" class="nav-link">Contact</a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="container mt-3">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <img src="src/profil.png" alt="" class="img-profil rounded-circle shadow-sm">
+                    <h1 class="mt-2 fw-bold">Vr<span class="span1">Shop</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-5 mt-5 content">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="fw-bold font-poppins-b">Web Development</h2>
+                <p class="p-pop font-poppins">Kami Menawarkan jasa untuk pembuatan web yang cukup profesional dan dapat dipercaya, kami dapat mengerjakanya dengan maximal pengerjaan 4 hari.</p>
+                <button class="btn-1" href="#002">Order</button>
+            </div>
+            <div class="col-md-6 form mt-3" id="#001">
+                <form action="">
+                    <div class="container vstack gap-2 p-4">
+                        <h3 class="text-center font-poppins-b">Send <span style="color: #344af1;">Massage</span></h3>
+                        <div class="vstack">
+                            <label for="01" class="form-label">Masukan Email</label>
+                            <input class="in-1 fw-medium" type="email" name="" id="01" placeholder="Masukan Email">
+                        </div>
+                        <div class="vstack">
+                            <label for="02">Masukan Pesan ( opsional )</label>
+                            <input class="in-1 fw-medium" type="text" name="" id="" placeholder="Masukan Pesan">
+                        </div>
+                        <div class="container-fluid hstack gap-1 align-items-center">
+                            <input class="in-box" type="checkbox" id="c-box"> <label for="c-box" class="in-box fw-medium opacity-75">Remember Email</label>
+                        </div>
+                        <button class="btn-in shadow" type="submit">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section id="03">
+        <div class="container-fluid">
+            <div class="row hstack p-5 gap-2 justify-content-center">
+                <div class="col-md-3 t-hover">
+                    <div class="container">
+                         <div class="card border-0 shadow" style="overflow-x: hidden;">
+                            <div class="container text-center p-2 mt-2">
+                                <H4 style="font-family: poppins-sb;">UI/UX Design</H4>
+                            </div>
+                            <div class="card-content text-center p-3">
+                                <img class="" style="width: 200px;" alt="" src="src/3658035.jpg">
+                            </div>
+                            <div class="card-footer border-0" style="background-color:#aa45f2; color: white;">
+                                <div class="container-fluid d-flex mt-3 text-center">
+                                    <p style="font-weight: 400;" >Saya memiliki kemampuan di bidang UI/UX design dan memiliki beberapa pengalaman membuat apk dan website menuggunakan figma</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 t-hover">
+                    <div class="container"><div class="card border-0 shadow" style="overflow-x: hidden;">
+                        <div class="container text-center p-2 mt-2">
+                            <H4 style="font-family: poppins-sb;">Web Development</H4>
+                        </div>
+                        <div class="card-content text-center p-3">
+                            <img class="" style="width: 200px;" alt="" src="src/3658035.jpg">
+                        </div>
+                        <div class="card-footer border-0" style="background-color:#4562f2; color: white;">
+                            <div class="container-fluid d-flex mt-3 text-center">
+                                <p style="font-weight: 400;" >Saya juga memiliki kemampuan FrontEnd Developer dan menekuni dunia progamming sejak 2021, Dan sekarang sudah banyak membuat project FrontEnd Developer</p>
+                            </div>
+                        </div>
+                    </div></div>
+                </div>
+                <div class="col-md-3 t-hover">
+                    <div class="container"><div class="card border-0 shadow" style="overflow-x: hidden;">
+                        <div class="container text-center p-2 mt-2">
+                            <H4 style="font-family: poppins-sb;">Video Editing</H4>
+                        </div>
+                        <div class="card-content text-center p-3">
+                            <img class="" style="width: 200px;" alt="" src="src/3658035.jpg">
+                        </div>
+                        <div class="card-footer border-0" style="background-color:#f24545; color: rgb(255, 255, 255);">
+                            <div class="container-fluid d-flex mt-3 text-center">
+                                <p style="font-weight: 400;" >Video editing, saya sudah menekuni skill editing dari 2020 dan sudah memulai freelance sebagai editor dan mendapatkan sedikit keuntungan. Saya juga mengikuti eskul jurnalistik dan sudah banyak menciptkan sebuah project untuk sekolah saya</p>
+                            </div>
+                        </div>
+                    </div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid footer mt-3 p-2" id="#002" style="background-color:#eceefa;">
+        <div class="container text-center footer-1 vstack">
+            <div class="sos hstack gap-3 justify-content-center align-items-center">
+                <p>Instagram</p>
+                <p>WhatsApp</p>
+                <p>Facebook</p>
+            </div>
+            <p>Copyright VrShop Company 2024.</p>
+        </div>
+    </div>
+</body>
+<script src="Bootstrap/js/bootstrap.min.js"></script>
+</html>

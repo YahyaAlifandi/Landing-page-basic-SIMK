@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic SIMK - Yahya Alifandi</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+
+    <style>
+        .contain-row {
+            height: 70vh;
+        }
+        .row-contain {
+            height: 20vh;
+            overflow: hidden;
+        }
+        .btn-1 {
+            padding-inline: 42%;
+        }
+        form {
+            overflow: hidden;
+        }
+        .sec1:hover {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar bg-body-tertiary shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold">Company</a>
+            <div class="text-center">
+                <a class="sec1 mx-2 text-decoration-none text-dark" href="">Home</a>
+                <a class="sec1 mx-2 text-decoration-none text-dark" href="">About</a>
+                <a class="sec1 mx-2 text-decoration-none text-dark" href="">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row-contain row text-center align-items-center">
+            <div class="col-md-12">
+                <div class="container">
+                    <img src="src/profil.png" alt="IMG" class="rounded w-25 img-thumbnail">
+                    <h1>Nama Company</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="contain-row row text-center align-items-center mt-2">
+            <div class="col-md-6">Produk</div>
+            <div class="col-md-6">
+                <form action="">
+                    <div class="container shadow-sm">
+                        <div class="form p-4">
+                            <h1>Pesan</h1>
+                            <div class="row mt-3 mb-2">
+                                <div class="col">
+                                    <input class="form-control" type="email" name="" id="" placeholder="Alamat Email">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <input class="form-control" type="number" name="" id="" placeholder="Pesan Opsional">
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn-1 btn btn-primary" type="submit">Kirim</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Bootstrap/js/bootstrap.min.js"></script>
+</html>
